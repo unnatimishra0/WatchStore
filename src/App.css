@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.hover-effect:hover img {
+  transform: scale(1.05);
+}
+
+.hover-effect {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
